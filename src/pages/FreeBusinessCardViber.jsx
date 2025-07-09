@@ -3,6 +3,7 @@ import FreeViberCallImg from '../assets/images/heroSectionsImg/freeViberCall-img
 import { LINKS } from '../constants/links';
 import ContentSection from '../components/ContentSection';
 import { sectionsData } from '../data/sectionsData';
+import PromoSection from '../components/PromoSection';
 
 export default function FreeBusinessCardViber() {
   return (
@@ -24,6 +25,23 @@ export default function FreeBusinessCardViber() {
       {sectionsData.freeViberCallSecond.map((section, idx) => (
         <ContentSection key={idx} {...section} />
       ))}
+      <PromoSection
+        title="Create your free digital business card now"
+        subtitleBelow="Become part of a smarter, connected support network"
+        buttons={[
+          { text: 'Get Started for Free', href: LINKS.GET_STARTED },
+          { text: 'Try on Viber', href: LINKS.TRY_ON_VIBER }
+        ]}
+      >
+        <div>
+          <a
+            href={LINKS.SUPPORT_NETWORK_ACTIVATION}
+            className="inline-flex items-center gap-1 text-white text-small underline-offset-2 hover:underline transition"
+          >
+            Learn more about Support Networks <span aria-hidden>→</span>
+          </a>
+        </div>
+      </PromoSection>
     </>
   );
 } 

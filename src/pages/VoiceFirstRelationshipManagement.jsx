@@ -3,6 +3,7 @@ import VoiceFirstImg from '../assets/images/heroSectionsImg/voiceFirst-img.jpg';
 import { LINKS } from '../constants/links';
 import ContentSection from '../components/ContentSection';
 import { sectionsData } from '../data/sectionsData';
+import PromoSection from '../components/PromoSection';
 
 export default function VoiceFirstRelationshipManagement() {
   return (
@@ -20,6 +21,10 @@ export default function VoiceFirstRelationshipManagement() {
       {sectionsData.voiceFirstRelationshipManagement.map((section, idx) => (
         <ContentSection key={idx} {...section} />
       ))}
+      <PromoSection
+        title="Join Relinkd today — and make every conversation count."
+        buttons={[{ text: 'Get Started for Free', href: LINKS.GET_STARTED }]}
+      />
     </>
   );
 } 

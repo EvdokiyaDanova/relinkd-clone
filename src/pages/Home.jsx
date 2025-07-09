@@ -22,10 +22,6 @@ export default function Home() {
       {sectionsData.home.map((section, i) => (
         <ContentSection key={i} {...section} />
       ))}
-      <div className="p-8 text-center">
-        <h1 className="text-3xl font-bold">Home Page</h1>
-        <p>Това е началната страница.</p>
-      </div>
       <PromoSection
         title="Ready to build your Support Network?"
         buttons={[

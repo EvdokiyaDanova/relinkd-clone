@@ -1,6 +1,7 @@
 import HeroSection from '../components/HeroSection';
 import ContentSection from '../components/ContentSection';
 import SupportNetworkImg from '../assets/images/heroSectionsImg/SupportNetwork-video.jpg';
+import PromoSection from '../components/PromoSection';
 import { LINKS } from '../constants/links';
 import { sectionsData } from '../data/sectionsData';
 
@@ -22,6 +23,10 @@ export default function SupportNetworkActivation() {
       {sectionsData.supportNetworkActivation.map((section, idx) => (
         <ContentSection key={idx} {...section} />
       ))}
+      <PromoSection
+        title="Ready to build your Support Network?"
+        buttons={[{ text: 'Get Started for Free', href: LINKS.GET_STARTED }]}
+      />
     </>
   );
 } 

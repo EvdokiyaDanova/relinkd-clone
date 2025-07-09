@@ -77,7 +77,7 @@ export default function Header() {
                           className={`flex items-center gap-1 px-6 py-2 text-relinkd-gray font-normal text-base leading-5 transition-colors hover:bg-[#f0f3f6] cursor-pointer hover:text-headerText`}
                           onClick={() => setPlatformOpen(false)}
                         >
-                          <span className={`w-5 h-5 flex items-center justify-center shrink-0 object-center${link.label === 'Free Business Card in Viber' ? ' mb-[2px]' : ''}`}>{link.icon}</span>
+                          <span className={`w-5 h-5 flex items-center justify-center shrink-0 object-center${link.label === 'Free Business Card in Viber' ? ' mb-[5px]' : ''}`}>{link.icon}</span>
                           {link.label}
                         </Link>
                       </li>
