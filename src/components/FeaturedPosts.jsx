@@ -11,7 +11,7 @@ const FeaturedPosts = ({ posts }) => {
         </h2>
         
         {/* Posts Flex */}
-        <div className="flex flex-wrap justify-start items-stretch gap-4 pb-4 border-b border-borderGrey">
+        <div className="flex flex-wrap justify-start items-stretch gap-4 pb-10 border-b border-borderGrey">
           {posts && posts.map((post, index) => (
             <div
               key={index}

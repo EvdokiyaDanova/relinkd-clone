@@ -2,7 +2,7 @@ import React from 'react';
 
 const LinkCard = ({ icon, title, description, linkText, linkHref }) => {
   return (
-    <div className="w-full max-w-4xl mx-auto p-4 md:p-6 bg-white rounded-2xl shadow border border-gray-100">
+    <div className="w-full p-4 md:p-6 bg-white rounded-2xl shadow border border-gray-100">
       <div className="flex flex-col md:flex-row md:items-center gap-4 md:gap-6">
         {/* Left side - Icon and Content */}
         <div className="flex flex-col md:flex-row md:items-center gap-4 md:gap-6 flex-1">

@@ -16,54 +16,58 @@ export default function HelpCommunity() {
         showViberLink={false}
       />
       
-      <div className="w-full pb-12 px-4">
-        <div className="max-w-7xl mx-auto space-y-6">
-          <LinkCard
-            icon={Icon1}
-            title="The Relinkd Blog: Support Networks in the AI Era"
-            description="Explore stories, lessons, and reflections on the evolving role of personal networks in an AI-powered world."
-            linkText="Read the Blog on Substack →"
-            linkHref={LINKS.BLOG}
+      <div className="w-full py-12 px-4">
+        <div className="max-w-[1152px] mx-auto">
+          <div className="space-y-6">
+            <LinkCard
+              icon={Icon1}
+              title="The Relinkd Blog: Support Networks in the AI Era"
+              description="Explore stories, lessons, and reflections on the evolving role of personal networks in an AI-powered world."
+              linkText="Read the Blog on Substack →"
+              linkHref={LINKS.BLOG}
+            />
+           <FeaturedPosts 
+            posts={[
+              { 
+                title: "Introducing Support Networks: Lessons from My Insomnia Journey",
+                href: "https://relinkd.substack.com/p/introducing-support-networks-lessons"
+              },
+              { 
+                title: "Support Network in the AI Era",
+                href: "https://relinkd.substack.com/p/support-networks-in-the-ai-era"
+              }
+            ]}
           />
+            <LinkCard
+              icon={Icon2}
+              title="Help Guide"
+              description="Learn how to use and navigate Relinkd with step-by-step instructions and feature tips."
+              linkText="Open the Help Guide →"
+              linkHref={LINKS.HELP}
+            />
+            
+            <LinkCard
+              icon={Icon3}
+              title="WhatsApp Community"
+              description="Join our WhatsApp group to connect with other Relinkd users, share ideas, and get peer support."
+              linkText="Join the WhatsApp Community →"
+              linkHref={LINKS.WHATSAPP}
+            />
+            
+            <LinkCard
+              icon={Icon4}
+              title="Feature Requests & Feedback"
+              description="Have ideas or suggestions? We're listening — help us improve Relinkd by sharing your feedback."
+              linkText="Click here to leave feedback →"
+              linkHref={LINKS.GET_STARTED}
+            />
+          </div>
           
-          <LinkCard
-            icon={Icon2}
-            title="Help Guide"
-            description="Learn how to use and navigate Relinkd with step-by-step instructions and feature tips."
-            linkText="Open the Help Guide →"
-            linkHref={LINKS.HELP}
-          />
+     
           
-          <LinkCard
-            icon={Icon3}
-            title="WhatsApp Community"
-            description="Join our WhatsApp group to connect with other Relinkd users, share ideas, and get peer support."
-            linkText="Join the WhatsApp Community →"
-            linkHref={LINKS.WHATSAPP}
-          />
-          
-          <LinkCard
-            icon={Icon4}
-            title="Feature Requests & Feedback"
-            description="Have ideas or suggestions? We're listening — help us improve Relinkd by sharing your feedback."
-            linkText="Click here to leave feedback →"
-            linkHref={LINKS.GET_STARTED}
-          />
+   
         </div>
       </div>
-      
-      <FeaturedPosts 
-        posts={[
-          { 
-            title: "Introducing Support Networks: Lessons from My Insomnia Journey",
-            href: "https://relinkd.substack.com/p/introducing-support-networks-lessons"
-          },
-          { 
-            title: "Support Network in the AI Era",
-            href: "https://relinkd.substack.com/p/support-networks-in-the-ai-era"
-          }
-        ]}
-      />
     </>
   );
 } 
