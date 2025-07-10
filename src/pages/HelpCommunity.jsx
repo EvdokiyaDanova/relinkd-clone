@@ -15,7 +15,7 @@ export default function HelpCommunity() {
         showViberLink={false}
       />
       
-      <div className="w-full py-12 px-4">
+      <div className="w-full pb-12 px-4">
         <div className="max-w-7xl mx-auto space-y-6">
           <LinkCard
             icon={Icon1}
