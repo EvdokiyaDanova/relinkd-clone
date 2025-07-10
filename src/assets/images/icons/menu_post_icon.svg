@@ -1,0 +1,11 @@
+<svg id="post" xmlns="http://www.w3.org/2000/svg" width="18" height="18" viewBox="0 0 18 18">
+  <g id="Rectangle_75865" data-name="Rectangle 75865" fill="#fff" stroke="#3822d4" stroke-width="1" opacity="0">
+    <rect width="18" height="18" stroke="none"/>
+    <rect x="0.5" y="0.5" width="17" height="17" fill="none"/>
+  </g>
+  <g id="text_1_" data-name="text (1)" transform="translate(1.286 3.857)">
+    <path id="Path_401260" data-name="Path 401260" d="M15,6.1H3" transform="translate(-3 -6.1)" fill="none" stroke="#3822d4" stroke-linecap="round" stroke-linejoin="round" stroke-width="1.4"/>
+    <path id="Path_401261" data-name="Path 401261" d="M18.429,12.1H3" transform="translate(-3 -6.957)" fill="none" stroke="#3822d4" stroke-linecap="round" stroke-linejoin="round" stroke-width="1.4"/>
+    <path id="Path_401262" data-name="Path 401262" d="M13.371,18H3" transform="translate(-3 -7.8)" fill="none" stroke="#3822d4" stroke-linecap="round" stroke-linejoin="round" stroke-width="1.4"/>
+  </g>
+</svg>

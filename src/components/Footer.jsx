@@ -37,8 +37,8 @@ export default function Footer() {
         {/* Get Relinkd Free */}
         <div className="flex flex-col items-start min-w-[220px]">
           <div className="mb-5 text-secondaryText font-roboto text-sectionTitle font-bold">Get Relinkd Free</div>
-          <a href={LINKS.GET_STARTED} target="_blank" rel="noopener noreferrer" className="w-full mb-3 px-8 py-3 rounded-lg bg-relinkd-green text-white font-medium text-lg text-center shadow-md btn-hover-lift transition hover:-translate-y-1 border border-relinkd-green" style={{borderRadius: '5px'}}>Get Started</a>
-          <a href={LINKS.TRY_ON_VIBER} target="_blank" rel="noopener noreferrer" className="w-full px-8 py-3 rounded-lg bg-white text-relinkd-green font-medium text-lg text-center shadow-md btn-hover-lift transition hover:-translate-y-1 border border-relinkd-green" style={{borderRadius: '5px'}}>Try on Viber</a>
+          <a href={LINKS.GET_STARTED} target="_blank" rel="noopener noreferrer" className="w-full mb-3 px-8 py-3 rounded-[5px] bg-relinkd-green text-white font-medium text-lg text-center shadow-md btn-hover-lift border border-relinkd-green">Get Started</a>
+          <a href={LINKS.TRY_ON_VIBER} target="_blank" rel="noopener noreferrer" className="w-full px-8 py-3 rounded-[5px] bg-white text-relinkd-green font-medium text-lg text-center shadow-md btn-hover-lift border border-relinkd-green">Try on Viber</a>
         </div>
       </div>
       <div className="max-w-7xl mx-auto mt-8 pt-6 border-t border-borderGrey text-center text-secondaryText text-overline">All rights reserved.</div>

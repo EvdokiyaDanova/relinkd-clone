@@ -37,7 +37,7 @@ export default function ContentSection({
           {button && (
             <a
               href={button.href}
-              className="inline-block mt-4 px-8 py-3 rounded-lg bg-relinkd-blueMain text-white font-medium text-lg shadow-md btn-hover-lift transition hover:-translate-y-1"
+              className="inline-block mt-4 px-8 py-3 rounded-[5px] bg-relinkd-blueMain text-white font-medium text-lg shadow-md btn-hover-lift"
               style={{ borderRadius: '5px' }}
               target="_blank"
               rel="noopener noreferrer"

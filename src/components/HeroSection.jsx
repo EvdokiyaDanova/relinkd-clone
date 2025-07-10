@@ -67,7 +67,7 @@ export default function HeroSection({
                 <a
                   key={btn.text}
                   href={btn.href}
-                  className="px-8 py-3 rounded-lg bg-relinkd-blueMain text-white font-medium text-lg shadow-md min-w-[220px] text-center btn-hover-lift"
+                  className="px-8 py-3 rounded-[5px] bg-relinkd-blueMain text-white font-medium text-lg shadow-md min-w-[220px] text-center btn-hover-lift"
                   {...(btn.href?.startsWith('http') ? { target: '_blank', rel: 'noopener noreferrer' } : {})}
                 >
                   {btn.text}
@@ -76,7 +76,7 @@ export default function HeroSection({
                 <button
                   key={btn.text}
                   onClick={() => setShowVideo(true)}
-                  className="px-8 py-3 rounded-lg border border-borderGrey border-[1px] text-relinkd-blueMain font-medium text-lg bg-white min-w-[220px] flex items-center justify-center gap-2 btn-hover-lift hover:border-borderGrey focus:border-borderGrey active:border-borderGrey"
+                  className="px-8 py-3 rounded-[5px] border border-borderGrey border-[1px] text-relinkd-blueMain font-medium text-lg bg-white min-w-[220px] flex items-center justify-center gap-2 btn-hover-lift hover:border-borderGrey focus:border-borderGrey active:border-borderGrey"
                 >
                   <span className="inline-flex items-center justify-center w-6 h-6 rounded-full border-2 border-relinkd-blueMain">
                     <svg width="14" height="14" viewBox="0 0 14 14" fill="none">

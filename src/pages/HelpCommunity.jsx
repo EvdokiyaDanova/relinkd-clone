@@ -1,5 +1,6 @@
 import HeroSection from '../components/HeroSection';
 import LinkCard from '../components/LinkCard';
+import FeaturedPosts from '../components/FeaturedPosts';
 import { LINKS } from '../constants/links';
 import Icon1 from '../assets/images/linkCard/helpCommunity-linkCard-1.svg';
 import Icon2 from '../assets/images/linkCard/helpCommunity-linkCard-2.png';
@@ -50,6 +51,19 @@ export default function HelpCommunity() {
           />
         </div>
       </div>
+      
+      <FeaturedPosts 
+        posts={[
+          { 
+            title: "Introducing Support Networks: Lessons from My Insomnia Journey",
+            href: "https://relinkd.substack.com/p/introducing-support-networks-lessons"
+          },
+          { 
+            title: "Support Network in the AI Era",
+            href: "https://relinkd.substack.com/p/support-networks-in-the-ai-era"
+          }
+        ]}
+      />
     </>
   );
 } 

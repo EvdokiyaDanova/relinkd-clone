@@ -50,7 +50,7 @@ export default function PromoSection({
                 href={href}
                 target="_blank"
                 rel="noopener noreferrer"
-                className={`px-8 py-4 rounded-lg font-medium text-lg min-w-[220px] text-center btn-hover-lift transition hover:-translate-y-1 shadow-md
+                className={`px-8 py-4 rounded-[5px] font-medium text-lg min-w-[220px] text-center btn-hover-lift shadow-md
                   ${isWhite ? 'bg-white text-relinkd-blueMain border border-white' : ''}
                   ${isOutline ? 'bg-transparent text-white border border-white' : ''}
                   ${!isWhite && !isOutline ? 'bg-relinkd-blueMain text-white' : ''}
