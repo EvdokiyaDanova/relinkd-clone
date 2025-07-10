@@ -382,7 +382,7 @@ export const sectionsData = {
       image: useCasesSection1,
       imageAlt: 'Relinkd use case 1',
       title: 'Reconnect With An Old Friend',
-      overline: 'Your Situation:',
+      subtitle: 'Your Situation:',
       bullets: [
         'You’re attending a local community event or panel discussion.',
         'During a break, you run into someone familiar — an old school friend or a colleague from years ago.',
