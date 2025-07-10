@@ -39,12 +39,17 @@ const SectionCards = ({ title, subtitle, cards, titleBelow, cardMaxWidth, cardLa
                 className="w-[100px] h-[100px] object-contain"
               />
             </div>
-            <div
-              className="text-body text-secondaryText"
-              dangerouslySetInnerHTML={{ __html: card.text }}
-            />
-            {/* Spacer за stretch при column */}
-            {!isRow && <div className="flex-1" />}
+            <div className="flex-1">
+              {card.title && (
+                <h3 className="text-body font-bold text-[#4b4b4b] mb-3">
+                  {card.title}
+                </h3>
+              )}
+              <div
+                className="text-body text-secondaryText"
+                dangerouslySetInnerHTML={{ __html: card.text }}
+              />
+            </div>
           </div>
         ))}
       </div>
