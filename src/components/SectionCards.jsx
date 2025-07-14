@@ -13,7 +13,7 @@ const SectionCards = ({ title, subtitle, cards, titleBelow, cardMaxWidth, cardLa
   const maxWidth = cardMaxWidth || 368;
   const isRow = cardLayout === 'row';
   return (
-    <section className="w-full flex flex-col items-center py-12 px-2">
+    <section className="w-full flex flex-col items-center pt-6 pb-6 px-2">
       {title && (
         <h2 className="text-h2 text-siteText font-bold text-center" dangerouslySetInnerHTML={{ __html: title }} />
       )}

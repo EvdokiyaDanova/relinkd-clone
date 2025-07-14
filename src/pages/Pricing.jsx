@@ -1,5 +1,6 @@
 import HeroSection from '../components/HeroSection';
 import SectionCards from '../components/SectionCards';
+import PricingPlans from '../components/PricingPlans';
 import Card1 from '../assets/images/sectionCards/pricing-card-1.png';
 import Card2 from '../assets/images/sectionCards/pricing-card-2.png';
 
@@ -10,6 +11,8 @@ export default function Pricing() {
         title="Pricing Plans"
         showViberLink={false}
       />
+      
+      <PricingPlans />
       
       <div className="w-full border-t border-borderGrey"></div>
       
